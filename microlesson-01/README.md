@@ -72,12 +72,12 @@
 
 By the end of this class, you will be able to:
 
--   ✅ **Understand the profound role and importance of data management in AI projects:** Grasp why it's not just a technical detail but a strategic necessity.
--   ✅ **Identify and articulate the key challenges in managing data for AI:** Recognize the unique hurdles that AI projects present in terms of data volume, variety, velocity, quality, labeling, security, and versioning.
--   ✅ **Describe and implement strategies for data governance, data quality management, data security, and scalability:** Learn how to establish robust frameworks, processes, and techniques to ensure your data is well-governed, high-quality, secure, and can scale with your AI ambitions.
--   ✅ **Explain the different stages of the data lifecycle and the considerations at each stage:** Understand the journey of data from collection to deletion and how to manage it effectively at each point.
--   ✅ **Differentiate between various data repositories (Data Warehouse, Data Lake, Data Mesh) and understand their architecture, use cases, benefits, and challenges:** Gain a clear understanding of these different approaches to data storage and organization and when to apply each one.
--   ✅ **Apply best practices for data management in your own AI projects:** Walk away with actionable strategies and techniques you can implement immediately to improve your AI projects.
+-   ✅ Explain the profound role and importance of data management in AI projects, emphasizing its strategic necessity..
+-   ✅ Identify and describe key challenges in managing data for AI, including aspects like data volume, variety, velocity, quality, labeling, security, and versioning..
+-   ✅ Implement strategies for data governance, quality management, security, and scalability by applying frameworks, processes, and techniques.
+-   ✅ Analyze the different stages of the data lifecycle, detailing considerations at each stage for effective data management.
+-   ✅ Compare and contrast various data repositories (e.g., Data Warehouse, Data Lake, Data Mesh) to articulate their architecture, use cases, benefits, and challenges
+-   ✅ Apply best practices for data management in AI projects to develop actionable improvements.
 
 -----
 
@@ -119,6 +119,11 @@ To thoroughly cover this vital topic, today's course will be structured as follo
 -----
 
 ## II. Data Management in AI Projects: Overview (10 minutes)
+
+![image](https://media.git.generalassemb.ly/user/21623/files/a9371e9d-d5f9-4416-8cbe-d82f9e5b6189)
+
+[Source](https://www.visier.com/data-ecosystem/data-management/)
+
 
 ### A. Definition of Data Management in AI Context
 
@@ -184,9 +189,20 @@ Neglecting data management or implementing it poorly can have severe, far-reachi
 
 **In essence, poor data management can turn the promise of AI into a costly and damaging liability.**
 
+### Discussion
+
+-  Reflecting on your current AI projects, which aspect of data management—volume, velocity, variety, quality, labeling, security, or versioning—has presented the most significant challenge, and how has it impacted outcomes?
+-  "Garbage in, garbage out" highlights the importance of data quality. Can you share an instance where data quality directly influenced the success or failure of an AI model?
+-  Bias in AI remains a critical issue. What strategies or practices have you used to identify and mitigate biases in your training data? How effective were they?
+-  Looking to the future, what emerging trends or technologies in data management do you believe will have the biggest impact on enterprise AI projects? How can Deloitte prepare for these changes?
+
 -----
 
 ## III. Strategies for Handling Data in an Organization (25 minutes)
+
+![image](https://media.git.generalassemb.ly/user/21623/files/2bc715e0-4723-4ee9-89a6-83bfdce842b0)
+[Source](https://www.qlik.com/us/data-management/data-strategy)
+
 
 Now that we've established the "why" of data management, let's move on to the "how." This section will explore the key strategies organizations should implement to manage their data effectively for AI projects.
 
@@ -411,9 +427,21 @@ AI projects often deal with massive and growing datasets. Therefore, the data in
 -   **Query Optimization:** Tuning database queries for optimal performance.
 -   **Resource Allocation:** Ensuring that sufficient resources (CPU, memory, network bandwidth) are allocated to data processing tasks.
 
+### Discussion
+
+-  Data governance requires clear roles and responsibilities. How does your organization define and implement roles like data owner and data steward, and how do these roles contribute to ensuring data quality and compliance?
+-  Regulatory compliance is a critical aspect of data management. What challenges has your organization faced in meeting standards like GDPR or CCPA, and what strategies have been most effective in addressing them?
+-  Ensuring data quality is a multi-dimensional task. Which data quality dimension—accuracy, completeness, consistency, timeliness, validity, uniqueness, or integrity—poses the greatest challenge in your AI projects, and how have you approached improving it?
+-  Scalability and performance are essential for managing growing datasets in AI projects. What tools or strategies, such as cloud-based solutions, distributed computing, or optimized data storage, have you implemented to handle these demands effectively?
+
+
 -----
 
 ## IV. Data Lifecycle (20 minutes)
+
+![image](https://media.git.generalassemb.ly/user/21623/files/7ede0850-fd74-4446-92e8-625d0b041048)
+
+[Source](https://www.qlik.com/us/data-management/data-strategy)
 
 The data lifecycle provides a holistic view of how data flows through an organization, from its initial creation to its eventual disposal. Understanding each stage is crucial for effective data management.
 
@@ -508,9 +536,19 @@ This final stage deals with the long-term storage or removal of data that is no 
 -   **Data Retention Policies:** Defining rules for how long different types of data should be retained and when they should be archived or deleted.
 -   **Audit Trails:** Maintaining records of data archiving and deletion activities for compliance purposes.
 
+### Discussion
+
+-  Data collection is the foundation of the lifecycle. What challenges have you faced in gathering high-quality data from diverse sources, and how have you addressed ethical considerations like informed consent and data minimization?
+-  Processing and transforming data into a usable format is critical. Which tools or methods—such as ETL, feature engineering, or validation—have been most effective in your AI projects, and why?
+-  Storage solutions like data lakes, warehouses, and databases each serve different purposes. How does your organization determine the right storage approach for AI initiatives, and how do you manage versioning and backup processes?
+-  The lifecycle ends with archiving and deletion. What best practices do you follow to ensure secure data deletion and compliance with retention policies while maintaining audit trails for regulatory requirements?
 -----
 
 ## V. Data Repositories (25 minutes)
+
+![image](https://media.git.generalassemb.ly/user/21623/files/7fe31bd9-c9d3-490e-80b6-e3b90c483e55)
+
+[Source](https://www.linkedin.com/pulse/best-data-repositories-phd-students-scientists-a-ashofte/)
 
 Now let's explore the different types of data repositories commonly used in AI projects, examining their characteristics, strengths, and weaknesses.
 
@@ -673,6 +711,12 @@ Now let's explore the different types of data repositories commonly used in AI p
     -   **Potential for Data Silos:** If not properly governed, a data mesh could lead to the creation of new data silos if domain teams do not adequately share or standardize their data.
     -   **Requires Strong Leadership:** Successfully transitioning to a data mesh requires strong leadership and buy-in from all levels of the organization.
 
+### Discussion
+
+-  Data warehouses and data lakes offer distinct advantages. In your experience, what factors influence the choice between these two for AI projects, and how have you balanced structured and unstructured data needs?
+-  Data lakes are prone to becoming 'data swamps' without proper governance. What practices has your organization implemented to maintain metadata management, data quality, and security in large-scale data lakes?
+-  The data mesh model emphasizes decentralized ownership and domain-driven design. What challenges or opportunities do you foresee in adopting this approach for your organization's AI projects?
+-  Each data repository type has specific use cases and limitations. How has your team leveraged technologies like data catalogs or federated governance to ensure collaboration and prevent data silos across repositories?
 -----
 
 ## VI. Conclusion and Best Practices (5 minutes)
