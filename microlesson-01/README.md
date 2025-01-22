@@ -1,4 +1,4 @@
-**Lesson 1: Data Management in AI Projects. Strategies for handling data in an organization**
+# Data Management in AI Projects. Strategies for handling data in an organization
 
 **Duration:** 90 minutes
 
