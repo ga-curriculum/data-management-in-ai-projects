@@ -21,7 +21,7 @@ Let's explore the different types of data repositories commonly used in AI proje
 
 Here's a Mermaid diagram illustrating the architecture of a typical data warehouse:
 
-```mermaid
+<div class="mermaid">
 graph LR
     A[Source Systems] -->|Extract| B(Staging Area);
     B -->|Transform| C(Data Warehouse Database);
@@ -32,7 +32,7 @@ graph LR
     D --> G[Reporting Tools];
     B --> H[Data Cleansing];
     C --> I[Metadata Repository];
-```
+</div>
 
  - **Source Systems:** Operational databases (e.g., CRM, ERP), transactional systems, and external data feeds.
  - **ETL (Extract, Transform, Load) Processes:** Extract data from source systems, transform it into a consistent format, and load it into the data warehouse.
