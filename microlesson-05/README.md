@@ -99,7 +99,7 @@ graph LR
 
 Here's a Mermaid diagram illustrating the architecture of a data lake:
 
-```mermaid
+<div class="mermaid">
 graph LR
     A[Source Systems] -->|Ingest| B(Data Lake Storage);
     B -->|Process| C(Data Processing Layer);
@@ -107,7 +107,7 @@ graph LR
     C -->|Consume| E[Machine Learning];
     B --> F[Metadata Catalog];
     B --> G[Security & Governance];
-```
+</div>
 
  - **Storage Layer:**
      - **Hadoop Distributed File System (HDFS):** An open-source distributed file system designed for storing large datasets across a cluster of commodity hardware.
@@ -176,7 +176,7 @@ graph LR
 
 Here's a Mermaid diagram illustrating the high-level architecture of a data mesh:
 
-```mermaid
+<div class="mermaid">
 graph LR
     A[Domain Team A] -->|Owns| B(Data Product A);
     B -->|Publishes| C(Data Catalog);
@@ -190,7 +190,7 @@ graph LR
     H[Federated Governance] -->|Governs| B;
     H -->|Governs| F;
     H -->|Governs| G;
-```
+</div>
 
  - **Data Product:** The fundamental unit of a data mesh. It's a self-contained dataset that is designed to meet the specific needs of a particular use case or set of use cases.
      - **Components:**
