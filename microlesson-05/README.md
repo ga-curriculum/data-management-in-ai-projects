@@ -19,7 +19,7 @@ Let's explore the different types of data repositories commonly used in AI proje
 
 #### 2. Architecture and Components
 
-Here's a Mermaid diagram illustrating the architecture of a typical data warehouse:
+Here's a diagram illustrating the architecture of a typical data warehouse:
 
 <div class="mermaid">
 graph LR
@@ -97,7 +97,7 @@ graph LR
 
 #### 3. Architecture and Technologies
 
-Here's a Mermaid diagram illustrating the architecture of a data lake:
+Here's a diagram illustrating the architecture of a data lake:
 
 <div class="mermaid">
 graph LR
@@ -174,7 +174,7 @@ graph LR
 
 #### 3. Implementing Data Mesh Architecture
 
-Here's a Mermaid diagram illustrating the high-level architecture of a data mesh:
+Here's a diagram illustrating the high-level architecture of a data mesh:
 
 <div class="mermaid">
 graph LR
