@@ -31,7 +31,7 @@ graph TD;
     C --> D[Data Usage in AI Models];
     D --> E[Data Retention & Deletion];
     E -->|Archived or Deleted| F[End of Lifecycle];
-    F -.->|New Data Generated| A;
+    F -.->|New Data Collected| A;
 
 </div>
 
