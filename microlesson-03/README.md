@@ -31,8 +31,6 @@ A **data repository** is a storage system where data is collected, stored, and m
 
 Use the following framework to decide the best data repository based on **data type, use case, and scalability needs**.
 
-### **Decision Tree for Selecting a Data Repository**
-
 <div class="mermaid">
 graph TD;
     A[What type of data do you have?] -->|Structured| B[Use Data Warehouse];
