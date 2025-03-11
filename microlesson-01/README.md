@@ -13,6 +13,7 @@ By the end of this lesson, learners will be able to:
 AI models are only as good as the data they are trained on. Poor data management leads to unreliable AI outcomes, compliance risks, and inefficient workflows. Organizations need strong data governance, quality control, and security measures to scale AI effectively.
 
 ## Key Data Management Challenges
+
 | Challenge  | Description |
 |------------|------------------------------------------------|
 | **Volume**  | Managing large-scale data storage and processing efficiently. |
