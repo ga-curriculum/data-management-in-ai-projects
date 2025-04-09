@@ -119,7 +119,7 @@ X = df.drop(columns=["customer_id", "purchase_date"])
 y = np.random.choice([0, 1], 100)  # Simulated repurchase prediction
 
 # Encode categorical variables
-encoder = OneHotEncoder(sparse=False)
+encoder = OneHotEncoder(sparse_output=False)
 X_encoded = encoder.fit_transform(df[["purchase_category"]])
 
 # Scale numerical data
