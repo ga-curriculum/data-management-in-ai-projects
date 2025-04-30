@@ -116,7 +116,8 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier
 
 X = df.drop(columns=["customer_id", "purchase_date"])
-y = np.random.choice([0, 1], 100)  # Simulated repurchase prediction
+#y = np.random.choice([0, 1], 100)  # Simulated repurchase prediction
+y = np.random.choice([0, 1], len(df))
 
 # Encode categorical variables
 encoder = OneHotEncoder(sparse_output=False)
