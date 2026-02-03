@@ -7,7 +7,7 @@
 
 By the end of this lesson, learners will be able to:
 
-- Map data through its lifecycle from collection to deletion in an AI project.
+- Map data across the AI data lifecycle, from collection to retention and deletion.
 - Implement hands-on coding to simulate each stage of the lifecycle.
 - Identify key consulting considerations when working with clients on data governance, security, and compliance.
 
@@ -17,7 +17,7 @@ By the end of this lesson, learners will be able to:
 Data in AI projects moves through distinct stages:
 
 1. **Collection** – Gathering raw data from sources.
-2. **Storage** – Saving data in appropriate formats.
+2. **Storage** – Saving data in appropriate formats.  
 3. **Processing & Cleaning** – Preparing data for AI models.
 4. **Usage** – Leveraging data for insights and predictions.
 5. **Retention & Deletion** – Managing long-term data policies.
@@ -72,7 +72,7 @@ df = pd.DataFrame(data)
 
 ### **Step 2: Data Storage & Format Considerations**
 
-Clients often store data in different formats. Choosing the right format impacts **speed, cost, and scalability.**
+Clients often store data in different formats. Choosing the right data format directly impacts performance, storage costs, and scalability.**
 
 #### **Code: Save Data in Different Formats**
 
@@ -90,7 +90,7 @@ df.to_parquet("transactions.parquet", index=False)
 
 ### **Step 3: Data Processing & Cleaning**
 
-**Challenge:** Real-world data is often **messy**—it contains duplicates, missing values, or incorrect formats.
+**Challenge:** Real-world data is often **messy**, containing duplicates, missing values, or inconsistent formats.
 
 #### **Code: Data Cleaning & Validation**
 
@@ -164,7 +164,7 @@ df.to_csv("updated_transactions.csv", index=False)
 ✅ Data moves through a lifecycle from **collection → storage → processing → usage → deletion**.\
 ✅ Different **storage formats** impact performance and cost.\
 ✅ Cleaning and preprocessing ensure **data quality** before AI modeling.\
-✅ AI models need **structured, processed data** to generate insights.\
+✅ AI models rely on **structured, processed data** to generate insights.\
 ✅ Compliance, governance, and business needs shape **data retention policies**.
 
 
