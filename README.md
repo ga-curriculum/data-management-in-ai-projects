@@ -6,12 +6,11 @@
 ### Learning Objectives
 By the end of this session, learners will be able to:
 
-- **Explain** the role and importance of data management in AI projects, including governance, security, and quality.
+- **Explain** the role and importance of data management in AI projects, including governance, security, and data quality.
 - **Identify** and **analyze** key challenges in managing AI data, such as volume, variety, velocity, and versioning.
 - **Map** data through its lifecycle from collection to deletion and understand key management strategies at each stage.
-- **Compare** different data repositories (Data Warehouse, Data Lake, Data Mesh) and choose the appropriate solution for different AI use cases.
-- **Apply** best practices for effective AI data management through hands-on exercises and case study discussions.
-
+- **Compare** data repositories (Data Warehouse, Data Lake, Data Mesh) and select the appropriate solution for different AI use cases.
+- **Apply** AI data management best practices through hands-on exercises and case-based discussions.
 ## Content
 
 | Lesson | Est. Delivery Time | Skills |
