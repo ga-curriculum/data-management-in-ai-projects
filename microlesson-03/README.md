@@ -86,7 +86,7 @@ df.to_parquet("transactions_lake.parquet", index=False)
 - How will **data governance** be enforced in a decentralized setup?
 - What are the **long-term scalability needs** for AI-driven analytics?
 
-## **4. Hands-On: Simulating a Data Mesh with Federated Queries**
+## Hands-On: Simulating a Data Mesh with Federated Queries**
 
 ### **Scenario: Federated Data Across Multiple Domains**
 
@@ -165,8 +165,8 @@ Discuss in teams:
 
 ## **Recap & Takeaways**
 
-✅ **Data Warehouses** are great for structured data and analytics-heavy use cases.\
-✅ **Data Lakes** handle unstructured data efficiently, making them ideal for AI & ML applications.\
+✅ **Data Warehouses** excel at structured data and analytics-heavy use cases.\
+✅ **Data Lakes** support unstructured data efficiently, making them ideal for AI & ML applications.\
 ✅ **Data Mesh** is best for decentralized, multi-domain enterprise data architectures.\
-✅ Choosing the right repository **depends on business goals, scalability needs, and governance models.**
+✅ Selecting the right repository depends on **business goals, scalability needs, and governance models.**
 
