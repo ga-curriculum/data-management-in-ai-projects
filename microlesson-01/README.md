@@ -7,10 +7,10 @@
 By the end of this lesson, learners will be able to:
 - Understand the importance of data management in AI projects.
 - Identify key challenges in managing AI data (governance, security, quality, scalability).
-- Recognize core strategies for handling AI data effectively.
+- Recognize core strategies for managing AI data effectively across its lifecycle.
 
 ## Why Data Management Matters in AI
-AI models are only as good as the data they are trained on. Poor data management leads to unreliable AI outcomes, compliance risks, and inefficient workflows. Organizations need strong data governance, quality control, and security measures to scale AI effectively.
+AI models are only as effective as the data they are trained on. Poor data management leads to unreliable AI outcomes, compliance risks, and inefficient workflows. To scale AI successfully, Organizations must establish strong data governance, quality control, and security measures to scale AI effectively.
 
 ## Key Data Management Challenges
 
