@@ -7,9 +7,9 @@
 
 By the end of this lesson, learners will be able to:
 
-- Differentiate between Data Warehouses, Data Lakes, and Data Mesh.
-- Apply a decision-making framework to choose the right data repository for a given use case.
-- Implement hands-on coding exercises to compare data storage formats and simulate federated queries in a Data Mesh architecture.
+- Differentiate between Data Warehouses, Data Lakes, and Data Mesh architectures.
+- Apply a decision-making framework to select an appropriate data repository for a given use case.
+- Demonstrate repository trade-offs through hands-on exercises comparing storage formats and federated queries.
 
 ## **What is a Data Repository?**
 
@@ -167,6 +167,6 @@ Discuss in teams:
 
 ✅ **Data Warehouses** excel at structured data and analytics-heavy use cases.\
 ✅ **Data Lakes** support unstructured data efficiently, making them ideal for AI & ML applications.\
-✅ **Data Mesh** is best for decentralized, multi-domain enterprise data architectures.\
+✅ **Data Mesh** supports decentralized, domain-driven data ownership at scale.\
 ✅ Selecting the right repository depends on **business goals, scalability needs, and governance models.**
 
